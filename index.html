@@ -1,9 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+
+<head>
+  <!--Meta Data-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess my Number</title>
+  <meta author="Gustav Ihlenfeld">
+  <meta class="ICD2O - Technology and Innovations">
+</head>
+<!--Stylesheet-->
+<link rel="stylesheet" href="./css/style.css">
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)/favicon-16x16.png">
+<link rel="manifest" href="./favicon_io (1)/site.webmanifest">
+
+<body>
+  <!--Header-->
+  <h1><i><b>Guess my Number</b></i></h1>
+  <h4>Creator : Gustav Ihlenfeld</h4>
+  <h4>Class : ICD2O</h4>
+
+  <!--Image-->
+  <img src="./images/guess.jpg" alt="guesss" style="float: right; margin: 0 10px;">
+
+  <p><b><u>Guess a number between 1 and 6:</u></b></p>
+  <!--Input-->
+  <label for="guess"><b><u>Guess:</u></b></label>
+  <input type="number" id="guess">
+  <br></br>
+
+  <!--Javascript-->
+  <button onclick="checkGuess()">Submit Guess</button>
+  <p id="result"></p> <!-- Display the result here -->
+  <script src="/js/script.js"></script>
+</body>
+
 </html>
